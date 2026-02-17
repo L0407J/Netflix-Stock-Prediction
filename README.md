@@ -1,74 +1,27 @@
-Netflix Stock Price Forecasting using Facebook Prophet
-📌 Overview
+# Netflix Stock Price Forecasting using Prophet 📈
 
-This project forecasts Netflix (NFLX) daily closing stock prices using the Facebook Prophet time-series model. The objective was to analyze historical trends and generate future predictions with confidence intervals.
+## Project Overview
+This project forecasts Netflix (NFLX) daily closing stock prices using historical data and the Facebook Prophet time-series forecasting model. The model captures trend, seasonality, and change points to generate interpretable future predictions with confidence intervals.
 
-🎯 Objective
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Facebook Prophet
+- Google Colab
 
-Forecast Netflix closing prices using historical data (2002–2025)
+## Key Features
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (Trend & Statistics)
+- Time-Series Forecasting using Prophet
+- 90–365 Day Future Predictions
+- Confidence Interval Visualization
+- Export of Forecasted Results (CSV)
 
-Apply Prophet to capture trend and seasonality
-
-Generate interpretable future predictions
-
-📊 Dataset
-
-Source: Kaggle (Netflix Stock Data)
-
-5,817 daily records
-
-Features: Date, Open, High, Low, Close, Volume
-
-Target Variable: Close price
-
-🛠 Tools Used
-
-Python
-
-Google Colab
-
-Pandas, NumPy
-
-Matplotlib
-
-Facebook Prophet
-
-🔍 Key Steps
-
-Data cleaning & preprocessing
-
-Exploratory Data Analysis (trend visualization & statistics)
-
-Prophet model training
-
-90–365 day future forecasting
-
-Confidence interval analysis
-
-📈 Results
-
-Captured long-term upward trend
-
-Identified volatility periods (e.g., pandemic years)
-
-Generated prediction ranges (yhat, yhat_lower, yhat_upper)
-
-Visualized forecast with 95% confidence interval
-
-⚠ Limitations
-
-Does not account for external factors (earnings, news, macroeconomic indicators)
-
-Includes non-trading days in predictions
-
-🚀 Future Improvements
-
-Compare with ARIMA & LSTM
-
-Add sentiment analysis
-
-Incorporate macroeconomic variables
-
-📂 Skills Demonstrated
-
-Time-Series Forecasting | Financial Data Analysis | Prophet Modeling | Data Visualization | Business Interpretation
+## Project Files
+- Netflix_Stock_Prediction.ipynb
+- NFLX.csv
+- netflix_forecast.csv
+- Project_Report.pdf
+- Presentation_PPT.pdf
